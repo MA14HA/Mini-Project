@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Mini.css" type="text/css">
+        <script src="https://kit.fontawesome.com/ecd7c19248.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="H:\MINI\Main.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<!javascript>
+<script>
+        let TimeEle = document.getElementById("seven");
+        let Time = TimeEle.textContent;
+        let MoneyEle = document.getElementById("thousand");
+        let Money= MoneyEle.textContent;
+        
+      </script>
+      
+<!End JS>
+
+<div class="container-fluid bg-container">
+
+
+<h3>Pick a Date:</h3>
+<div>
+<button class="btn btn-info m-2">MON-05/02</button>
+<button class="btn btn-info m-2">TUES-06/02</button>
+<button class="btn btn-info m-2">WED-07/02</button>
+<button class="btn btn-info m-2">THUR-08/02</button>
+<button class="btn btn-info m-2">FRI-09/02</button>
+
+</div>
+<br><br>
+<div>
+    <h3>Pick Timing:</h3>
+    <button data-toggle="modal" data-target="#idmodal" class="btn btn-secondary m-3" id="seven">07:00 A.M</button>
+    <button class="btn btn-secondary m-3">10:00 A.M</button>
+    <br>
+    <button class="btn btn-secondary m-3">11:15 A.M</button>
+    <button class="btn btn-secondary m-3">13:30 P.M</button>
+    <br>
+    <button class="btn btn-secondary m-3">14:00 P.M</button>
+    <button class="btn btn-secondary m-3">15:10 P.M</button>
+    <br>
+    <button class="m-3 btn btn-secondary ">17:00 P.M</button>
+    <button class="m-3 btn btn-secondary ">19:30 P.M</button>
+    <br>
+    <button class="m-3 btn btn-secondary ">21:00 P.M</button>
+    <button class="m-3 btn btn-secondary ">23:30 P.M</button>
+</div>
+
+<div id="idmodal" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Choose the Amount:</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-header">
+          <button class="btn btn-dark btn-lg" data-dismiss="modal" id="thousand">RS.1000</button>
+          <button class="btn btn-secondary btn-lg" data-dismiss="modal" id="fivehundred">Rs.500</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div>
+</body>
+</html>
